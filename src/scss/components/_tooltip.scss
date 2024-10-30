@@ -1,0 +1,25 @@
+// tooltip css start 
+.tooltipWrap {
+    .react-tooltip {
+        background-color: var(--hex-white-bg) !important;
+        background-color: var(--hex-white-bg) !important;
+        color: var(--hex-heading-color) !important;
+        box-shadow: 0 0 2px #f3f3f3 !important;
+        z-index: 2;
+        padding: 7px 8px !important;
+        display: inline-block;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 450;
+        color: var(--hex-heading-color);
+        opacity: 1 !important;
+        border-radius: 5px !important;
+        max-width: 180px !important;
+        width: fit-content !important;
+        &::before,
+        &::after {
+            background-color: var(--hex-white-bg) !important;
+            box-shadow: 0 0 10px #ececec !important;
+        }
+    }
+}

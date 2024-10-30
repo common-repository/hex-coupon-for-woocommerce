@@ -1,0 +1,72 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+/* Custom Report Css */
+
+.customReport {
+    &.d-flex {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: calc(100% / 5 - 0px);
+        padding: 20px;
+        // @include responsive(allPhone) {
+        //     width: calc(100% / 2 - 0px);
+        // }
+        &:not(:last-child) {
+            border-right: 1px solid var(--hex-border-color);
+        }
+        &:nth-child(n + 6) {
+            border-top: 1px solid var(--hex-border-color);
+        }
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        color: var(--hex-heading-color);
+        transition: all .3s;
+        &:hover {
+            color: var(--hex-main-color-one);
+            text-decoration: underline;
+        }
+    }
+    &__para {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        color: var(--hex-body-color);
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599.98px) {
+    .customReport {
+        &__item {
+            width: calc(100% / 5 - 0px);
+        }
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    .customReport {
+        &__item {
+            width: calc(100% / 4 - 0px);
+        }
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .customReport {
+        &__item {
+            width: calc(100% / 3 - 0px);
+        }
+    }
+}
+@media screen and (max-width: 991.98px) {
+    .customReport {
+        &__item {
+            width: calc(100% / 2 - 0px);
+        }
+    }
+}

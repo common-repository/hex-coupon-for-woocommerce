@@ -1,0 +1,69 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+/* Header Author Css */
+
+.pageHeader__author {
+    position: relative;
+    &__thumb {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        cursor: pointer;
+        &__img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__right {
+            display: flex;
+            align-items: center;
+            gap: 1px;
+        }
+        &__name {
+            font-size: 14px;
+            font-weight: 4000;
+            line-height: 24px;
+            color: var(--hex-paragraph-color);
+        }
+        &__arrow {}
+    }
+    &__contents {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: var(--hex-white-bg);
+        border-bottom: 2px solid var(--hex-main-color-one);
+        box-shadow: 0 0 20px var(--hex-black-shadow);
+        width: fit-content;
+        min-width: 145px;
+        border-radius: 5px;
+        z-index: 2;
+        // visibility: hidden;
+        // opacity: 0;
+        transition: all .4s;
+        &__list {
+            &__item {
+                padding: 7px 10px;
+                display: block;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: var(--hex-paragraph-color);
+                transition: all .3s;
+                &:hover {
+                    background-color: var(--hex-main-color-one);
+                    color: var(--hex-white-text);
+                }
+                &:not(:last-child) {
+                    border-bottom: 1px solid var(--hex-border-color);
+                }
+            }
+        }
+    }
+}

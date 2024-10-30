@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//== Abstract page
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+/* Base */
+@import "./pages/typgraphy";
+@import "./base/common";
+
+/* Components */
+@import "./components/reactSelect";
+@import "./components/custom_table";
+@import "./components/custom_radio";
+@import "./components/form";
+
+@import "./components/action";
+@import "./components/pagination";
+@import "./components/quick_links";
+@import "./components/sidebar";
+@import "./components/button";
+@import "./components/table";
+@import "./components/modal";
+@import "./components/form_input";
+@import "./components/segment_area";
+@import "./components/segment";
+@import "./components/card_header";
+@import "./components/card_left";
+@import "./components/card";
+@import "./components/conditions";
+@import "./components/select";
+@import "./components/if_conditions";
+@import "./components/else_conditions";
+@import "./components/date_picker";
+@import "./components/switch";
+@import "./components/actionIcon";
+@import "./components/send_message";
+
+/* Pages */
+@import "./pages/grid";
+@import "./pages/dashbaord";
+@import "./pages/promo";
+@import "./pages/dashboardCard";
+@import "./pages/giftCard";
+@import "./pages/storeCredit";
+@import "./pages/storeCreditSettings";
+@import "./pages/itemHeader";
+@import "./pages/grantCoupon";
+@import "./pages/smsgateways";
+@import "./pages/spinWheel";
+@import "./pages/automation_rules";
+@import "./pages/automation";
+@import "./pages/pointLoyaltySettings";
+@import "./pages/loyaltyProgramSettings";
+@import "./pages/topLoyaltyPointsEarner";

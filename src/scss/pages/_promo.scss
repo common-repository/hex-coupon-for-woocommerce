@@ -1,0 +1,19 @@
+/* Pormo css */
+.hexpSingle__promo {
+    background-color: var(--hex-white-bg);
+    padding: 20px;
+    &__title {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.2;
+        color: var(--hex-heading-color);
+
+    }
+    &__para {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: var(--hex-paragraph-color);
+        margin: 7px 0 0;
+    }
+}

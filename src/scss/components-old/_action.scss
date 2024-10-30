@@ -1,0 +1,58 @@
+/* Actions css */
+
+.actionWrapper {
+    position: relative;
+    display: inline-block;
+}
+  
+.actionWrapper__icon {
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 0;
+    color: var(--hex-heading-color);
+    padding: 5px;
+}
+
+.actionWrapper__inner {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+    z-index: 1000;
+    min-width: 140px;
+    background-color: var(--hex-white-bg);
+    border: 1px solid var(--hex-border-color);
+    box-shadow: 0 2px 4px rgba(var(--hex-main-color-one-rgb), .1);
+}
+  
+.actionWrapper.active .actionWrapper__inner {
+    display: block;
+}
+  
+.actionWrapper__inner__link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 6px 10px;
+    color: var(--hex-heading-color);
+    text-decoration: none;
+    transition: background-color 0.3s;
+    &:not(:first-child) {
+        border-top: 1px solid var(--hex-border-color);
+    }
+}
+  
+.actionWrapper__inner__link:hover {
+    background-color: rgba(var(--hex-main-color-one-rgb), .1);
+    color: var(--hex-main-color-one);
+    border-color: rgba(var(--hex-main-color-one-rgb), .5);
+}
+  
+.actionWrapper__inner__link__icon {
+    font-size: 20px;
+}
+
+  

@@ -1,0 +1,35 @@
+{
+    "name": "codesvault/validator",
+    "description": "Data validation library",
+    "version": "1.1.2",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codesvault\\Validator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CodesVault",
+            "email": "codesvalut@gmail.com"
+        },
+        {
+            "name": "Keramot UL Islam (AbmSourav)",
+            "email": "keramotul.islam@gmail.com",
+            "homepage": "https://abmsourav.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "keywords": [
+        "validator",
+        "validation",
+        "data validation",
+        "data validator",
+        "php validator",
+        "php validation",
+        "codesvalut"
+    ]
+}

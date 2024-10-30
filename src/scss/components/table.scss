@@ -1,0 +1,184 @@
+
+
+/* // Table Css  */
+
+.tableWrap {
+    width: 100%;
+    overflow-x: auto;
+    .table-bottom-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span,a{
+            border: 1px solid var(--hex-border-color);
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 12px;
+            color: var(--pragraph-color);
+            transition: all 300ms;
+            &:hover{
+                background-color: var(--black-color);
+                color: #fff;
+            }
+        }
+        span{
+            margin: 0 5px;
+            &:hover{
+                background-color: transparent;
+                color: var(--pragraph-color);
+            }
+        }
+        .prev{
+            &:disabled{
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+            cursor: pointer;
+        }
+        .currentPage{
+            cursor: not-allowed;
+        }
+        .next{
+            cursor: pointer;
+            &:disabled{
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+        }
+    }
+    .infowrap {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: var(--pragraph-color);
+        font-size: 12px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        color: var(--pragraph-color);
+    }
+    thead {
+        &.dashboard__bg {
+            background-color: var(--hex-dashboard-bg);
+        }
+        th {
+            border: 1px solid var(--hex-border-color);
+            font-weight: 500;
+            padding: 12px 20px;
+            font-size: 14px;
+            line-height: 24px;
+            color: var(--hex-heading-color);
+            min-width: 120px;
+            &.head__checkbox {
+                width: 40px;
+                min-width: unset;
+                max-width: 40px;
+            }
+        }
+    }
+    tr {
+        &:first-child {
+            th,
+            td {
+                border-top: 0;
+            }
+        }
+    }
+    td {
+        border: 1px solid var(--hex-border-color);
+        font-weight: 400;
+        padding: 12px 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .pagination {
+        &.center {}
+        &.right {}
+    }
+}
+.tableActionIcon {
+    &.d-flex {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    &__item {
+        font-size: 16px;
+        color: var(--pragraph-color);
+        transition: all .3s;
+        cursor: pointer;
+        &:hover {
+            color: var(--hex-main-color-one);
+        }
+        &.delete {
+            &:hover {
+                color: var(--hex-danger-color);
+            }
+        }
+    }
+}
+
+.tableAction {
+    display: inline-block;
+    &__list {
+        max-width: 120px;
+        width: 80px;
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        transition: all .3s;
+        background-color: var(--hex-white-bg);
+        &.show {
+            visibility: visible;
+            opacity: 1;
+            height: auto;
+            display: block;
+        }
+        &__item {
+            display: block;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: var(--pragraph-color);
+            padding: 5px 10px;
+            transition: all .3s;
+            &:hover {
+                background-color: var(--hex-main-color-one);
+                color: var(--hex-white-text);
+            }
+            &:not(:last-child) {
+                border-bottom: 1px solid var(--hex-border-color);
+            }
+        }
+    }
+}
+
+.statusWrap {
+    &.redeemed {
+        background-color: rgba(var(--hex-main-color-one-rgb), .1);
+        color: var(--hex-main-color-one);
+        padding: 3px 7px;
+        border-radius: 5px;
+    }
+    &.active {
+        background-color: rgba(var(--hex-success-color-rgb), .1);
+        color: var(--hex-success-color);
+        padding: 3px 7px;
+        border-radius: 5px;
+    }
+    &.waiting,
+    &.pending {
+        background-color: rgba(var(--hex-pending-rgb), .1);
+        color: var(--hex-pending);
+        padding: 3px 7px;
+        border-radius: 5px;
+    }
+    &.expired {
+        background-color: var(--hex-border-color);
+        color: var(--hex-heading-color-two);
+        padding: 3px 7px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,30 @@
+.hexpDashboard__left {
+	.hexcoupon_resources {
+		margin-top: 40px;
+		border-radius: 4px;
+		background: #F2F4F7;
+		border: 1px solid #EAECF0;
+		p {
+			margin: 10px;
+			color: #667085;
+			padding: 10px;
+			border-radius: 4px;
+			font-weight: bold;
+		}
+		ul {
+			li {
+				color: #667085;
+				border-bottom: 1px solid #EAECF0;
+
+				&:last-child {
+					border-bottom: none;
+				}
+				a {
+					&:hover {
+						background: #EAECF0 !important;
+					}
+				}
+			}
+		}
+	}
+}

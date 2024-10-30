@@ -1,0 +1,49 @@
+/* Grant Coupon css */
+
+.hexGrantCoupon {
+    border: 1px solid var(--hex-border-color);
+    background-color: var(--hex-white-bg);
+    padding: 30px 20px;
+    display: block;
+    position: relative;
+    text-align: center;
+    &.active {
+        border-color: var(--hex-main-color-one);
+        background-color: rgba(var(--hex-main-color-one-rgb), .05);
+        .hexGrantCoupon {
+            &__icon {
+                color: var(--hex-main-color-one);
+            }
+            &__title {
+                color: var(--hex-main-color-one);
+            }
+        }
+    }
+    // &__input {
+    //     position: absolute;
+    //     top: 10px;
+    //     right: 10px;
+    //     z-index: 1;
+    // }
+    &__radio {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1;
+    }
+    &__icon {
+        font-size: 48px;
+        color: var(--hex-heading-color);
+    }
+    &__subtitle {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: var(--hex-heading-color);
+    }
+}

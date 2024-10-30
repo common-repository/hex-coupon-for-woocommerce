@@ -1,0 +1,207 @@
+.spinToWin {
+  position: fixed; /* Position it relative to the viewport */
+  top: 50%; /* Move to the center vertically */
+  left: 50%; /* Move to the center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for the element's size */
+  background-color: #B71C1C; /* Background color */
+  padding: 40px; /* Padding inside the element */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Optional shadow for a 3D effect */
+  z-index: 9999; /* Ensure it is on top of other elements */
+  max-width: 1200px; /* Max width for the content */
+  width: 100%; /* Full width up to the max-width */
+}
+
+.spinToWin button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.spinToWin a {
+  text-decoration: none;
+}
+
+.spinToWin .spinToWin-wraper {
+  padding: 80px 10px;
+  background: #B71C1C;
+  color: #fff;
+  position: relative;
+}
+
+.spinToWin .spinToWin-wraper .close {
+  position: absolute;
+  top: 0;
+  line-height: 1;
+  right: 0;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.spinToWin .text-part {
+  max-width: 436px;
+}
+
+.spinToWin .text-part .heading {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.spinToWin .text-part .heading + p {
+  color: #D8CFCF;
+  font-size: 16px;
+  margin: 24px 0 40px 0;
+}
+
+.spinToWin .text-part .custom-input {
+  background: #fff;
+  color: #303030;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  font-family: var(--dm-sans);
+}
+
+.spinToWin .text-part .custom-input:focus-visible {
+  outline: none;
+}
+
+.spinToWin .text-part .try-your-luck {
+  background: #343434;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 48px;
+  margin-bottom: 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.spinToWin .text-part .termCondition {
+  color: #343434;
+  font-weight: 500;
+}
+
+.spinToWin .text-part input[type="checkbox"] {
+  accent-color: #343434;
+}
+
+.spinToWin .text-part .accept-agree span {
+  display: inline-block;
+}
+
+/* Uncomment and use this section if needed
+.spinToWin .text-part .openion {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.spinToWin .text-part .openion .opinion-btn {
+  color: #fff;
+}
+*/
+
+/* Wheel-part */
+.spinToWin .spinner-wraper {
+  width: fit-content;
+  position: relative;
+}
+
+.spinToWin .spinner-wraper .svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  transform-origin: top left;
+  rotate: 10deg;
+}
+
+.spinToWin .wheel {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 8px solid #fff;
+}
+
+.spinToWin .wheel {
+  --size: 550px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  grid-template-areas: "stack";
+  inline-size: var(--size);
+  block-size: var(--size);
+  border-radius: 50%;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.spinToWin .wheel::after {
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 567px) {
+  .spinToWin .wheel {
+      --size: 280px;
+  }
+}
+
+.spinToWin .slice {
+  --count: 12;
+  --radius: calc(var(--size) / 4);
+  --deg: calc(var(--i) * (360deg / var(--count)));
+  grid-area: stack;
+  transform: translate3d(
+      calc(cos(var(--deg)) * var(--radius)),
+      calc(sin(var(--deg)) * var(--radius)),
+      0
+  ) rotate(calc(var(--deg)));
+}
+
+.spinToWin .value {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-top: 0.2em;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  white-space: nowrap;
+  rotate: 86deg;
+  padding: 16px;
+  inline-size: calc(var(--size) / 2);
+  block-size: calc(var(--size) / var(--count) * 3.3);
+  background-color: var(--bg);
+  clip-path: polygon(0 0, 100% 0, 50% 100%, 50% 100%);
+  user-select: none;
+}
+
+.spinToWin .slice:nth-child(1) {
+  --bg: #E53935;
+}
+
+.spinToWin .slice:nth-child(4n + 2) {
+  --bg: #FFCDD2;
+}
+
+.spinToWin .slice:nth-child(4n + 3) {
+  --bg: #B71C1C;
+}
+
+.spinToWin .slice:nth-child(4n + 4) {
+  --bg: #E57373;
+}

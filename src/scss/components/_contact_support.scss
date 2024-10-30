@@ -1,0 +1,43 @@
+/* Contact Support Css */
+
+.contactSupport {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__box {
+        background-color: var(--hex-white-bg);
+        display: inline-block;
+        padding: 5px 20px 5px 5px;
+        border-radius: 30px;
+        border: 1px solid var(--hex-border-color);
+    }
+    &__flex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+        border-radius: 50%;
+        color: var(--hex-main-color-one);
+        background-color: rgba(var(--hex-main-color-one-rgb), .1);
+    }
+    &__para {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        color: var(--hex-heading-color);
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        &__link {
+            color: var(--hex-main-color-one);
+        }
+    }
+}

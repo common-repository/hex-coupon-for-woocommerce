@@ -1,0 +1,57 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+/* Time Zone Css */
+.form {
+    &__wrap {
+        &__item {
+            .css-13cymwt-control{
+                border-color: var(--hex-border-color);
+                color: var(--hex-body-color);
+                max-height: 34px;
+                line-height: 1;
+                min-height: 34px;
+                &:focus,
+                &:hover {
+                    border-color: rgba(var(--hex-main-color-one-rgb), 0.4);
+                }
+            }
+            .css-1dimb5e-singleValue  {
+                color: var(--hex-body-color);
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+            .css-1u9des2-indicatorSeparator {
+                background: none;
+            }
+            .css-1xc3v61-indicatorContainer {
+                color: var(--hex-body-color);
+                padding-block: 4px;
+            }
+            .css-w9q2zk-Input2 {
+                padding-top: 0;
+            }
+            .css-t3ipsp-control {
+                border-color: rgba(var(--hex-main-color-one-rgb), 0.4);
+                box-shadow: rgba(var(--hex-main-color-one-rgb), 0.1);
+                &:focus,
+                &:hover {
+                    border-color: rgba(var(--hex-main-color-one-rgb), 0.4);
+                    box-shadow: rgba(var(--hex-main-color-one-rgb), 0.1);
+                }
+            }
+            .css-1nmdiq5-menu {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                &-list {
+                    &:hover {
+                        background-color: rgba(var(--hex-main-color-one-rgb), 0.1);
+                        color: var(--hex-main-color-one);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+/* Filter css */
+
+.filterParent {
+    position: relative;
+}
+.filterWrap {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    background-color: var(--hex-white-bg);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--hex-border-color);
+    min-width: 190px;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+    max-height: 290px;
+    overflow-y: auto;
+    z-index: 1;
+    &.show {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+    &__list {
+        li,
+        &__item {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: var(--hex-paragraph-color);
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            cursor: pointer;
+            &:not(:last-child) {
+                margin-bottom: 8px;
+            }
+            .checkBox {
+                border: 1px solid var(--hex-border-color);
+                height: 12px;
+                width: 12px;
+                border-radius: 3px;
+                background-color: unset;
+            }
+        }
+    }
+}

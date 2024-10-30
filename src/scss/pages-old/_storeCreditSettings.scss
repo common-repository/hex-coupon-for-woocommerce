@@ -1,0 +1,21 @@
+/* Store Credit Settings css */
+.store_credit_enable_text {
+	margin-right: 10px;
+}
+.store_credit_enable_title {
+	font-weight: inherit;
+}
+.store_credit_enable_button {
+	padding: .625rem 1rem;
+	background: #A760FE;
+	border: 1px solid #A760FE;
+	color: #ffffff;
+	margin-top: .625rem;
+	cursor: pointer;
+	font-size: 16px;
+}
+.store_credit_enable_button {
+	&:hover {
+		background: #984bf6;
+	}
+}

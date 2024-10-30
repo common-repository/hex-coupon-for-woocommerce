@@ -1,0 +1,124 @@
+.point-based-loyalty-settings {
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+	h1 {
+		display: flex;
+		align-items: center;
+		font-size: 24px;
+		margin-bottom: 20px;
+
+		.back-icon {
+			cursor: pointer;
+			margin-right: 10px;
+		}
+	}
+
+	.settings-section {
+		margin-top: 20px;
+
+		.setting-item {
+			margin-bottom: 20px;
+			padding: 20px;
+			border-bottom: 1px solid #e0e0e0;
+
+			.setting-header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 10px;
+				font-size: 18px;
+				font-weight: 500;
+
+				.switch-container {
+					> span:first-child {
+						width: 220px;
+					}
+					.switch-enabled {
+						margin-right: 10px;
+						margin-left: 0;
+						font-size: 16px;
+					}
+				}
+			}
+
+			.setting-body {
+
+				label {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-bottom: 10px;
+					font-size: 16px;
+
+					input {
+						width: 150px;
+						margin-left: 10px;
+						border: 1px solid #ccc;
+						border-radius: 4px;
+						line-height: 1;
+						padding:6px;
+					}
+				}
+			}
+		}
+
+		.save-button-area {
+			padding: 20px;
+			.save-button {
+				display: block;
+				background-color: var(--hex-main-color-one);
+				color: white;
+				border: none;
+				cursor: pointer;
+				font-size: 16px;
+				font-weight: 600;
+				text-align: center;
+				margin-top: 20px;
+				transition: background-color 0.3s;
+				padding: 10px 22px;
+				width: auto;
+
+				&:hover {
+					background-color: rgba(167, 96, 254, 0.68);
+				}
+			}
+		}
+
+		.conversion-rate {
+			margin-top: 20px;
+			padding: 20px;
+			border-bottom: 1px solid #e0e0e0;
+
+			label {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 10px;
+				font-size: 16px;
+				gap: 10px;
+
+				input {
+					width: 70%;
+					padding: 5px;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+				}
+			}
+
+			span {
+				width: 25%;
+				display: block;
+				font-size: 14px;
+				color: #666;
+				text-align: center;
+				border: 1px solid #a760fe;
+				background: rgba(167, 96, 254, 0.08);
+				margin-top: 0;
+				padding: 8px 5px;
+			}
+		}
+	}
+}

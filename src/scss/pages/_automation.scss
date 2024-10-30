@@ -1,0 +1,21 @@
+/* Automation card css  */
+
+.coming-soon-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	background-color: #f7f7f7;
+	h1 {
+		font-size: 2.5rem;
+		font-weight: bold;
+		color: #a760fe;
+		margin-bottom: 0.5rem;
+	}
+	p {
+		color: var(--hex-paragraph-color);
+		margin: 0.5rem 0;
+	}
+}

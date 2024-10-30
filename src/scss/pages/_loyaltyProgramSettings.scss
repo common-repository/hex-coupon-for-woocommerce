@@ -1,0 +1,122 @@
+.loyalty-program-settings {
+	padding: 20px;
+	background-color: #f9f9f9;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+	h2 {
+		margin-bottom: 20px;
+		font-size: 24px;
+		color: #333;
+	}
+
+	.loyalty-option {
+		display: flex;
+		align-items: center;
+		padding: 20px;
+		background-color: #fff;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		max-width: 700px;
+
+		.loyalty-icon {
+			flex-shrink: 0;
+			margin-right: 10px;
+
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+
+		.loyalty-details {
+			flex-grow: 1;
+
+			h3 {
+				margin: 0;
+				font-size: 18px;
+				color: #333;
+			}
+
+			p {
+				margin: 0;
+				font-size: 14px;
+				color: #666;
+			}
+		}
+
+		.loyalty-toggle {
+			display: flex;
+			align-items: center;
+
+			.loyalty-settings-icon {
+				color: var(--hex-main-color-one);
+			}
+
+			.toggle-checkbox {
+				display: none;
+			}
+
+			.toggle-label {
+				position: relative;
+				display: inline-block;
+				width: 34px;
+				height: 20px;
+				background-color: #ccc;
+				border-radius: 15px;
+				cursor: pointer;
+
+				&::after {
+					content: '';
+					position: absolute;
+					top: 2px;
+					left: 2px;
+					width: 16px;
+					height: 16px;
+					background-color: #fff;
+					border-radius: 50%;
+					transition: transform 0.3s;
+				}
+			}
+
+			.toggle-checkbox:checked + .toggle-label::after {
+				transform: translateX(14px);
+				background-color: #9b59b6;
+			}
+		}
+	}
+
+	.store-credit-enable-notice {
+		padding: 15px;
+		background-color: #fff3cd;
+		border: 1px solid #ffeeba;
+		color: #856404;
+		border-radius: 4px;
+		margin-top: 20px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		max-width: 700px;
+
+		p {
+			margin: 0;
+			font-size: 14px;
+			line-height: 1.5;
+		}
+	}
+
+	.save-button-container {
+		margin-top: 20px;
+		display: flex;
+
+		.save-button {
+			padding: 10px 20px;
+			background-color: #a760fe;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+			font-size: 16px;
+			transition: background-color 0.3s;
+
+			&:hover {
+				background-color: #A760FEB6;
+			}
+		}
+	}
+}

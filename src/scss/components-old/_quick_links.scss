@@ -1,0 +1,52 @@
+.HxcAppWrapper {
+	.MainContainer {
+		.hexcoupon_quick_links {
+			display: flex;
+			align-items: center;
+			padding: 20px 0;
+			p {
+				font-weight: bold;
+			}
+			a {
+				border: 1px solid #A760FE;
+				padding: 5px 8px;
+				margin: 0 10px;
+				color: #A760FE;
+				border-radius: 4px;
+				display: inline-flex;
+				align-items: center;
+				&:hover {
+					background: #A760FE;
+					color: #ffffff;
+				}
+				svg {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1572px) {
+	.HxcAppWrapper {
+		.MainContainer {
+			.hexcoupon_quick_links {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 15px;
+				p {
+					width: 100%;
+					margin-left: 10px;
+				}
+				a {
+					flex: 1 1 calc(49.55% - 15px); /* Adjust the width and gap as needed */
+					max-width: calc(49.55% - 15px);
+					justify-content: center;
+					font-size: 14px;
+					padding: 4px 4px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

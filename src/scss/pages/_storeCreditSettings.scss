@@ -1,0 +1,102 @@
+/* Store Credit Settings css */
+.store-credit-settings {
+	padding: 20px;
+	background-color: #f9f9f9;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+	h2 {
+		margin-bottom: 20px;
+		font-size: 24px;
+		color: #333;
+	}
+
+	.store-credit-option {
+		display: flex;
+		align-items: center;
+		padding: 20px;
+		background-color: #fff;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		max-width: 700px;
+
+		.store-credit-icon {
+			flex-shrink: 0;
+			margin-right: 10px;
+
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+
+		.store-credit-details {
+			flex-grow: 1;
+
+			h3 {
+				margin: 0;
+				font-size: 18px;
+				color: #333;
+			}
+
+			p {
+				margin: 0;
+				font-size: 14px;
+				color: #666;
+			}
+		}
+
+		.store-credit-toggle {
+			display: flex;
+			align-items: center;
+
+			.toggle-checkbox {
+				display: none;
+			}
+
+			.toggle-label {
+				position: relative;
+				display: inline-block;
+				width: 34px;
+				height: 20px;
+				background-color: #ccc;
+				border-radius: 15px;
+				cursor: pointer;
+
+				&::after {
+					content: '';
+					position: absolute;
+					top: 2px;
+					left: 2px;
+					width: 16px;
+					height: 16px;
+					background-color: #fff;
+					border-radius: 50%;
+					transition: transform 0.3s;
+				}
+			}
+
+			.toggle-checkbox:checked + .toggle-label::after {
+				transform: translateX(14px);
+				background-color: #9b59b6;
+			}
+		}
+	}
+
+	.save-button-container {
+		margin-top: 20px;
+		display: flex;
+
+		.save-button {
+			padding: 10px 20px;
+			background-color: #A760FE;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+			font-size: 16px;
+			transition: background-color 0.3s;
+
+			&:hover {
+				background-color: #984bf6;
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+/* Chart Css */
+
+.dashboard__chart {
+    &.chartWidth {
+        max-width: 250px;
+        height: 250px;
+        margin-inline: auto;
+    }
+}

@@ -1,0 +1,1258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HexCoupon: Ultimate WooCommerce Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-29 10:55+0000\n"
+"PO-Revision-Date: 2024-07-30 09:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.10; wp-6.5.5\n"
+"X-Domain: hex-coupon-for-woocommerce"
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:134
+msgid " Store Credit"
+msgstr "crédit en magasin"
+
+#: app/Controllers/WooCommerce/Admin/CouponUsageRestrictionTabController.php:398
+#: app/Controllers/WooCommerce/Admin/CouponUsageRestrictionTabController.php:434
+#: app/Controllers/WooCommerce/Admin/CouponUsageRestrictionTabController.php:470
+#: app/Controllers/WooCommerce/Admin/CouponUsageRestrictionTabController.php:506
+#: app/Controllers/WooCommerce/Admin/CouponUsageRestrictionTabController.php:562
+msgid "\"."
+msgstr ""
+
+#: app/Controllers/AdminMenuController.php:72
+#: app/Controllers/AdminMenuController.php:73
+#: app/Core/Helpers/EmailTemplatesHelpers.php:119
+#: app/Core/Helpers/EmailTemplatesHelpers.php:120
+#: app/Core/Helpers/EmailTemplatesHelpers.php:131
+#: app/Core/Helpers/EmailTemplatesHelpers.php:134
+#: app/Core/Helpers/EmailTemplatesHelpers.php:135
+#: app/Core/Helpers/EmailTemplatesHelpers.php:140
+#: app/Core/WooCommerce/CouponShortcode.php:91
+#: app/Core/WooCommerce/CouponShortcode.php:93
+#: app/Core/WooCommerce/MyAccount.php:236
+#: app/Core/WooCommerce/MyAccount.php:243
+#: app/Core/WooCommerce/MyAccount.php:247
+#: app/Core/WooCommerce/MyAccount.php:260
+#: app/Core/WooCommerce/MyAccount.php:312
+#: app/Core/WooCommerce/MyAccount.php:319
+#: app/Core/WooCommerce/MyAccount.php:323
+#: app/Core/WooCommerce/MyAccount.php:336
+#: app/Core/WooCommerce/MyAccount.php:412
+#: app/Core/WooCommerce/MyAccount.php:419
+#: app/Core/WooCommerce/MyAccount.php:423
+#: app/Core/WooCommerce/MyAccount.php:440
+#: app/Core/WooCommerce/StoreCredit.php:135
+#: app/Core/WooCommerce/StoreCredit.php:146
+#: app/Core/WooCommerce/StoreCredit.php:147
+#: app/Controllers/WooCommerce/Admin/CouponGeneralTabController.php:44
+#: app/Controllers/WooCommerce/Admin/CouponGeneralTabController.php:73
+#: app/Controllers/WooCommerce/Admin/CouponSharableUrlTabController.php:136
+#: app/Controllers/WooCommerce/StoreCredit/StoreCreditRefund.php:109
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:131
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:214
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:270
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:271
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:272
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:273
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:274
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:275
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: app/Core/WooCommerce/MyAccount.php:253
+#: app/Core/WooCommerce/MyAccount.php:256
+#: app/Core/WooCommerce/MyAccount.php:329
+#: app/Core/WooCommerce/MyAccount.php:332
+#: app/Core/WooCommerce/MyAccount.php:429
+#: app/Core/WooCommerce/MyAccount.php:432
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:135
+#, php-format
+msgid "%s . "
+msgstr ""
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:121
+#, php-format
+msgid "%s: %s"
+msgstr ""
+
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:776
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:825
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:872
+msgid "(BOGO Deal) <br>"
+msgstr "(affaire de bogo)"
+
+#: app/Core/Helpers/StoreCreditHelpers.php:365
+msgid ". Please follow through the below details"
+msgstr ""
+"Veuillez suivre les détails ci-dessous\n"
+
+#: app/Core/AdminNoticeManager.php:181
+#, php-format
+msgid ""
+"<p><b>WooCommerce</b> plugin is not active! Activate the WooCommerce plugin "
+"to use <b>HexCoupon</b> features.\n"
+"\t\t</p><a href=\"%s\">Activate WooCommerce</a>"
+msgstr ""
+"<p><b>WooCommerce</b> le plugin n'est pas actif! Activez le plugin "
+"WooCommerce pour utiliser <b>HexCoupon</b> caractéristiques.\n"
+"\t\t</p><a href=\"%s\">Activer WooCommerce</a>"
+
+#: app/Core/AdminNoticeManager.php:196
+#, php-format
+msgid ""
+"<p><b>WooCommerce</b> plugin is not installed! Install the WooCommerce "
+"plugin to use <b>HexCoupon</b> features.\n"
+"\t\t</p><a href=\"%s\">Install WooCommerce</a>"
+msgstr ""
+"<p><b>WooCommerce</b> le plugin n'est pas installé! Installez le plugin "
+"WooCommerce à utiliser <b>HexCoupon</b> caractéristiques.\n"
+"\t\t</p><a href=\"%s\">Installer WooCommerce</a>"
+
+#: app/Core/AdminNoticeManager.php:212
+#, php-format
+msgid ""
+"<p>Welcome to <b>HexCoupon</b> - Solution for smarter store marketing. Get "
+"advanced features for your <b>WooCommerce</b> store with our free plugin.\n"
+"\t\t</p><a href=\"%s\">Want to learn how to set up?</a>"
+msgstr ""
+"<p>Bienvenue à <b>HexCoupon</b> - Solution pour un marketing en magasin plus "
+"intelligent . Bénéficiez de fonctionnalités avancées pour votre <b>"
+"WooCommerce</b> magasinez avec notre plugin gratuit.\n"
+"\t\t</p><a href=\"%s\">Vous voulez apprendre à configurer?</a>"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:93
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:221
+msgid "A combination of products"
+msgstr "Une combinaison de produits"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:92
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:220
+msgid "A specific product"
+msgstr "Un produit spécifique"
+
+#: app/Core/WooCommerce/StoreCredit.php:114
+msgid "Actions"
+msgstr "Actions"
+
+#: app/Views/admin/licensing.php:51
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: app/Views/admin/licensing.php:31
+msgid "Active"
+msgstr "Actif"
+
+#: app/Core/WooCommerce/MyAccount.php:80
+msgid "Active Coupons"
+msgstr "Coupons actifs"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:161
+msgid "Add categories"
+msgstr "Ajouter des catégories"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:173
+msgid "Add categories that customer need to buy from."
+msgstr "Ajoutez des catégories dans lesquelles les clients doivent acheter."
+
+#: app/Controllers/AdminMenuController.php:135
+#: app/Controllers/AdminMenuController.php:136
+msgid "Add Coupon"
+msgstr "Ajouter un coupon"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:173
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:242
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:309
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:376
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:443
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:510
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:577
+msgid "Add More Hours"
+msgstr "Ajouter plus d'heures"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:109
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:237
+msgid "Add product/products"
+msgstr "Ajouter un ou plusieurs produits"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:121
+msgid "Add the product that customer buys."
+msgstr ""
+"Ajoutez le produit que le client achète.\n"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:249
+msgid "Add the product that customer will get for free."
+msgstr "Ajoutez le produit que le client obtiendra gratuitement."
+
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:513
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:565
+msgid "Add to Cart"
+msgstr "Ajouter au panier"
+
+#: app/Core/WooCommerce/StoreCredit.php:88
+msgid "All"
+msgstr "Tout"
+
+#: app/Core/WooCommerce/MyAccount.php:77
+msgid "All Available Coupons"
+msgstr "Tout les coupons disponibles"
+
+#: app/Controllers/AdminMenuController.php:115
+#: app/Controllers/AdminMenuController.php:116
+#: app/Core/WooCommerce/MyAccount.php:47
+msgid "All Coupons"
+msgstr "Tous les coupons disponibles"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:280
+msgid ""
+"All points you get are converted to store credit. Use store credit to make "
+"purchase on our store."
+msgstr ""
+"Tous les points que vous obtenez sont convertis en crédit en magasin. "
+"Utilisez le crédit du magasin pour effectuer un achat sur notre boutique."
+
+#: app/Core/WooCommerce/CouponPaymentandShipping.php:116
+msgid "Allow Payment Methods"
+msgstr "Autoriser les modes de paiement"
+
+#: app/Core/WooCommerce/CouponPaymentandShipping.php:133
+msgid "Allow Shipping Methods"
+msgstr "Autoriser les méthodes d'expédition"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:285
+msgid "Allowed/Restricted customer Group"
+msgstr "Groupe de clients autorisés/restreints"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:287
+#: app/Core/WooCommerce/StoreCredit.php:102
+msgid "Amount"
+msgstr "le montant"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:95
+msgid "Any product from categories"
+msgstr "Tout produit des catégories"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:94
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:222
+msgid "Any products listed below"
+msgstr "Tous les produits répertoriés ci-dessous"
+
+#: app/Controllers/WooCommerce/StoreCredit/StoreCreditRefund.php:46
+#: app/Controllers/WooCommerce/StoreCredit/StoreCreditRefund.php:70
+msgid "as refund"
+msgstr "comme remboursement"
+
+#: app/Core/WooCommerce/StoreCredit/AddStoreCreditCheckbox.php:50
+#: app/Core/WooCommerce/StoreCredit/AddStoreCreditCheckbox.php:64
+#: react-backup/frontend.js:84 src/frontend.js:84
+msgid "Available Store Credit: "
+msgstr "Crédit en magasin disponible :"
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:121
+#: app/Core/Helpers/EmailTemplatesHelpers.php:141
+msgid "Best Regards,"
+msgstr "Cordialement"
+
+#: build/block.json:1 react-backup/block.json:1 src/block.json:1
+msgctxt "block title"
+msgid "Store Credit"
+msgstr "Crédit en magasin"
+
+#: app/Core/WooCommerce/CouponShortcode.php:84
+msgid "BOGO"
+msgstr "BOGO"
+
+#: app/Core/WooCommerce/MyAccount.php:240
+#: app/Core/WooCommerce/MyAccount.php:316
+#: app/Core/WooCommerce/MyAccount.php:416
+msgid "Bogo"
+msgstr "Bogo"
+
+#: app/Core/AssetsManager.php:178
+msgid "Bogo Coupons"
+msgstr "Bons de réduction Bogo"
+
+#: hex-coupon-for-woocommerce.php:78
+msgid "Bogo Discount"
+msgstr ""
+"\n"
+"Remise Bogo"
+
+#: assets/dev/admin/js/admin.js:44
+msgid ""
+"Can not select same item on both purchased and free product, chose specific "
+"and same product to do so!"
+msgstr ""
+"Impossible de sélectionner le même article sur le produit acheté et le "
+"produit gratuit, choisissez le même produit spécifique pour le faire!"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:175
+msgid "Cart Page"
+msgstr "Page du panier"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:260
+msgid ""
+"Categories that the coupon will be applied to, or that need to be in the "
+"cart in order for the &quot;Fixed cart discount&quot; to be applied."
+msgstr ""
+"Catégories auxquelles le coupon sera appliqué ou qui doivent être dans le "
+"panier pour que la « remise sur le panier fixe » soit appliquée. à appliquer."
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:237
+msgid "Category Cart Condition"
+msgstr "Catégorie État du panier"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:114
+msgid ""
+"Check this box to allow customers automatically apply the current coupon by "
+"visiting a URL"
+msgstr ""
+"Cochez cette case pour permettre aux clients d'appliquer automatiquement le "
+"coupon actuel en visitant une URL"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:108
+msgid ""
+"Check this box to make coupon valid for specific days and hours of the week."
+msgstr ""
+"Cochez cette case pour rendre le coupon valable pour des jours et des heures "
+"spécifiques de la semaine."
+
+#: app/Core/WooCommerce/CouponSingleUsageLimits.php:44
+msgid "Check this box to reset usage limit after a period"
+msgstr ""
+"Cochez cette case pour réinitialiser la limite d'utilisation après une "
+"période"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:238
+msgid ""
+"Check this box to to add a cart condition for the customer based on category."
+msgstr ""
+"Cochez cette case pour ajouter une condition de panier pour le client en "
+"fonction de la catégorie."
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:149
+msgid ""
+"Check this box to to add a cart condition for the customer based on product."
+msgstr ""
+"Cochez cette case pour ajouter une condition de panier pour le client en "
+"fonction du produit.\n"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:286
+msgid "Check this box to to add groups of Allowed/Restricted customers."
+msgstr ""
+"Cochez cette case pour ajouter des groupes de clients autorisés/restreints.\n"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:337
+msgid "Check this box to to add individual of Allowed/Restricted customers."
+msgstr "Cochez cette case pour ajouter des clients autorisés/restreints."
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:176
+msgid "Checkout Page"
+msgstr "Checkout Page"
+
+#: app/Core/WooCommerce/StoreCredit.php:159
+#: app/Core/WooCommerce/StoreCredit.php:169
+msgid "Continue Shopping"
+msgstr "Continue Shopping"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:223
+msgid "Conversion Rate"
+msgstr "Taux de conversion"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:222
+msgid "Converted Credit"
+msgstr "Crédit converti"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:134
+msgid "Copy"
+msgstr "Copie"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:142
+msgid "Copy URL"
+msgstr "Copier le lien"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:353
+msgid "Coupon allowed for below customers"
+msgstr "Coupon autorisé pour les clients ci-dessous"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:302
+msgid "Coupon allowed for below groups"
+msgstr "Coupon autorisé pour les groupes ci-dessous"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:166
+msgid ""
+"Coupon applies if only customers cart contains all of the product listed "
+"below"
+msgstr ""
+"Le coupon s'applique si seul le panier du client contient tous les produits "
+"répertoriés ci-dessous\n"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:165
+msgid ""
+"Coupon applies if only customers cart contains any of the product listed "
+"below"
+msgstr ""
+"Le coupon s'applique si seul le panier du client contient l'un des produits "
+"répertoriés ci-dessous"
+
+#: app/Controllers/AdminMenuController.php:155
+#: app/Controllers/AdminMenuController.php:156
+msgid "Coupon Categories"
+msgstr "Catégories de coupons"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:580
+msgid "Coupon deactivated for Friday"
+msgstr "Coupon désactivé pour vendredi"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:312
+msgid "Coupon deactivated for Monday"
+msgstr "Coupon désactivé pour lundi"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:177
+msgid "Coupon deactivated for Saturday"
+msgstr "Coupon désactivé pour samedi"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:245
+msgid "Coupon deactivated for Sunday"
+msgstr "Coupon désactivé pour dimanche"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:513
+msgid "Coupon deactivated for Thursday"
+msgstr "Coupon désactivé pour jeudi"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:379
+msgid "Coupon deactivated for Tuesday"
+msgstr "Coupon désactivé pour mardi"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:446
+msgid "Coupon deactivated for Wednesday"
+msgstr "Coupon désactivé pour mercredi"
+
+#: app/Core/AssetsManager.php:180
+msgid "Coupon Insights"
+msgstr "Informations sur les coupons"
+
+#: app/Controllers/WooCommerce/Admin/CouponGeneralTabController.php:547
+msgid "Coupon is not valid at this hour, please come in another time."
+msgstr ""
+"Le coupon n'est pas valable à cette heure, veuillez venir à une autre heure."
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:354
+msgid "Coupon restricted for below customers"
+msgstr "Coupon restreint pour les clients ci-dessous"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:303
+msgid "Coupon restricted for below groups"
+msgstr "Coupon restreint pour les groupes ci-dessous"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:331
+msgid "Coupon starting date"
+msgstr "Date de début du coupon"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:69
+msgid "Coupon type"
+msgstr "Type de coupon"
+
+#: app/Core/AssetsManager.php:174
+msgid "Coupons Active"
+msgstr "Coupons actifs"
+
+#: app/Core/AssetsManager.php:172
+msgid "Coupons Created"
+msgstr "Coupons créés"
+
+#: app/Core/AssetsManager.php:175
+msgid "Coupons Expired"
+msgstr "Coupons expirés"
+
+#: app/Core/AssetsManager.php:173
+msgid "Coupons Redeemed"
+msgstr "Coupons échangés"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:188
+msgid "Custom Local URL"
+msgstr "URL locale personnalisée"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:218
+msgid "Customer gets"
+msgstr "Le client obtient"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:312
+msgid "Customer Group"
+msgstr "Groupe de clients"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:90
+msgid "Customer purchases"
+msgstr "Achats clients"
+
+#: app/Controllers/AdminMenuController.php:96
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: app/Core/WooCommerce/StoreCredit.php:105
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:224
+msgid "Date"
+msgstr "Date"
+
+#: app/Views/admin/licensing.php:48
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: app/Core/WooCommerce/StoreCredit/AddStoreCreditCheckbox.php:54
+#: app/Core/WooCommerce/StoreCredit/AddStoreCreditCheckbox.php:68
+msgid "Deduct credit amount from total"
+msgstr "Déduire le montant du crédit du total"
+
+#: app/Core/WooCommerce/StoreCredit/AddStoreCreditDeductionRow.php:65
+msgid "Deducted Store Credit:"
+msgstr "Crédit magasin déduit :"
+
+#: app/Core/WooCommerce/StoreCredit/AddStoreCreditDeductionRow.php:49
+msgid "Deducted Store Credit: "
+msgstr "Crédit magasin déduit :"
+
+#: app/Core/WooCommerce/CouponShortcode.php:91
+msgid "DISCOUNT"
+msgstr "RABAIS"
+
+#: app/Core/WooCommerce/MyAccount.php:237
+#: app/Core/WooCommerce/MyAccount.php:240
+#: app/Core/WooCommerce/MyAccount.php:244
+#: app/Core/WooCommerce/MyAccount.php:248
+#: app/Core/WooCommerce/MyAccount.php:313
+#: app/Core/WooCommerce/MyAccount.php:316
+#: app/Core/WooCommerce/MyAccount.php:320
+#: app/Core/WooCommerce/MyAccount.php:324
+#: app/Core/WooCommerce/MyAccount.php:413
+#: app/Core/WooCommerce/MyAccount.php:416
+#: app/Core/WooCommerce/MyAccount.php:420
+#: app/Core/WooCommerce/MyAccount.php:424
+msgid "Discount"
+msgstr "Rabais"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:274
+msgid "Discount Type"
+msgstr "Type de remise"
+
+#: assets/dev/admin/js/admin.js:747
+msgid "Do not leave date and time empty."
+msgstr "Ne laissez pas la date et l'heure vides."
+
+#: app/Core/WooCommerce/AddCustomLinksInAllPluginsPage.php:41
+#: app/Core/WooCommerce/AddCustomLinksInAllPluginsPage.php:47
+#: app/Core/WooCommerce/AddCustomLinksInAllPluginsPage.php:47
+msgid "Documentation"
+msgstr "Documentation"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:129
+msgid "Edit URL link"
+msgstr "Modifier le lien URL"
+
+#: assets/dev/admin/js/admin.js:714
+msgid "Enter a valid number in the Bogo fields, equivalent or greater than 1"
+msgstr ""
+"Entrez un nombre valide dans les champs Bogo, équivalent ou supérieur à 1"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:170
+msgid "Enter redirect URL"
+msgstr "Saisissez l'URL de redirection"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:194
+msgid "Enter URl"
+msgstr "Entrer l'URL"
+
+#. %s: Just an error message to display
+#: app/Controllers/WooCommerce/Admin/CouponGeneralTabController.php:160
+#: app/Controllers/WooCommerce/Admin/CouponGeneralTabController.php:195
+#: app/Controllers/WooCommerce/Admin/CouponGeographicRestrictionTabController.php:69
+#: app/Controllers/WooCommerce/Admin/CouponSharableUrlTabController.php:50
+#: app/Controllers/WooCommerce/Admin/CouponUsageLimitsTabController.php:136
+#: app/Controllers/WooCommerce/Admin/CouponUsageRestrictionTabController.php:70
+#: app/Controllers/WooCommerce/Admin/PaymentAndShippingTabController.php:51
+#, php-format
+msgid "Error: %s"
+msgstr "Erreur: %s"
+
+#: app/Views/admin/licensing.php:33
+msgid "Expired"
+msgstr "Expiré"
+
+#. Description of the plugin
+msgid "Extend coupon functionality in your Woocommerce store."
+msgstr "Étendez la fonctionnalité des coupons dans votre boutique Woocommerce."
+
+#: assets/dev/public/js/public.js:43 assets/dev/public/js/public.js:51
+msgid "Failed to copy the referral link: "
+msgstr "Échec de la copie du lien de parrainage :"
+
+#: app/Core/WooCommerce/StoreCredit.php:86
+msgid "Filter:"
+msgstr "Filtre:"
+
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:393
+msgid "Free Bogo products added successfully!"
+msgstr "Produits Bogo gratuits ajoutés avec succès !"
+
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:970
+msgid "Free/Discounted Items"
+msgstr "Articles gratuits/à prix réduit"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:541
+msgid "Friday"
+msgstr "Vendredi"
+
+#: app/Core/WooCommerce/CouponSingleGeographicRestrictions.php:37
+msgid "Geographic restrictions"
+msgstr "Restrictions géographiques"
+
+#: app/Core/AssetsManager.php:179
+msgid "Geographically Restricted"
+msgstr "Limité géographiquement"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:324
+msgid ""
+"Groups that the coupon will be applied to, or that need to be in the cart in "
+"order for the &quot;Fixed cart discount&quot; to be applied."
+msgstr ""
+"Les groupes auxquels le coupon sera appliqué ou qui doivent être dans le "
+"panier pour bénéficier de la « remise sur le panier fixe » à appliquer."
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:118
+#: app/Core/Helpers/EmailTemplatesHelpers.php:130
+#, php-format
+msgid "Hello %s,"
+msgstr "Bonjour %s"
+
+#: app/Controllers/AdminMenuController.php:95
+msgid "HexCoupon"
+msgstr "HexCoupon"
+
+#: app/Controllers/AdminMenuController.php:175
+#: app/Controllers/AdminMenuController.php:176
+msgid "HexCoupon License"
+msgstr "licence hexcoupon"
+
+#: app/Views/admin/licensing.php:6
+msgid "HexCoupon License Activation"
+msgstr "Activation de la licence HexCoupon"
+
+#. Name of the plugin
+msgid "HexCoupon: Ultimate WooCommerce Toolkit"
+msgstr "HexCoupon : boîte à outils ultime de WooCommerce"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/hex-coupon-for-woocommerce"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wphex.com/"
+msgstr ""
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:135
+msgid "ID: "
+msgstr "IDENTIFIANT:"
+
+#: app/Core/WooCommerce/StoreCredit.php:89
+#: app/Core/WooCommerce/StoreCredit.php:153
+msgid "In"
+msgstr "Dans"
+
+#: app/Views/admin/licensing.php:37
+msgid "Inactive"
+msgstr "Inactive"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:363
+msgid "Individual Customer"
+msgstr "Client Particulier"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:375
+msgid ""
+"Individual customer that the coupon will be applied to, or that need to be "
+"in the cart in order for the &quot;Fixed cart discount&quot; to be applied."
+msgstr ""
+"Client individuel auquel le coupon sera appliqué, ou qui doit être dans le "
+"panier pour bénéficier de la « remise sur le panier fixe » ; à appliquer."
+
+#: app/Controllers/WooCommerce/Admin/CouponUsageRestrictionTabController.php:526
+msgid "Invalid coupon, sorry you are not allowed to use this coupon."
+msgstr ""
+"Coupon invalide, désolé, vous n'êtes pas autorisé à utiliser ce coupon."
+
+#: app/Controllers/WooCommerce/Admin/CouponGeographicRestrictionTabController.php:285
+msgid "Invalid coupon, your shipping zone does not support this coupon."
+msgstr ""
+"Coupon invalide, votre zone d'expédition ne prend pas en charge ce coupon."
+
+#: app/Controllers/WooCommerce/Admin/CouponGeographicRestrictionTabController.php:305
+msgid "Invalid coupon. Your country does not support this coupon."
+msgstr "Coupon invalide. Votre pays ne prend pas en charge ce coupon."
+
+#: app/Controllers/WooCommerce/Admin/CouponGeographicRestrictionTabController.php:324
+msgid ""
+"Invalid coupon. Your payment or shipping method does not support this coupon."
+msgstr ""
+"Coupon invalide. Votre mode de paiement ou d'expédition ne prend pas en "
+"charge ce coupon."
+
+#: app/Views/admin/licensing.php:12
+msgid "Invalid License: "
+msgstr "Licence invalide :"
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:135
+msgid "Issued: "
+msgstr "Émis:"
+
+#: app/Views/admin/licensing.php:35
+msgid "Key Mismatched"
+msgstr "Clé incompatible"
+
+#: app/Core/Helpers/FormHelpers.php:18
+msgid "label"
+msgstr "étiquette"
+
+#: app/Controllers/Licensing/ActivateLicense.php:41
+msgid "License activated successfully!"
+msgstr "Licence activée avec succès !"
+
+#: app/Controllers/Licensing/DeactivateLicense.php:40
+msgid "License deactivated successfully!"
+msgstr "Licence désactivée avec succès !"
+
+#: app/Views/admin/licensing.php:27
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:56
+msgid "Loyalty Points"
+msgstr "Points de fidélité"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:155
+msgid "Message for customer e.g. Congratulations you got 20% discount."
+msgstr ""
+"Message pour le client, par ex. Félicitations, vous avez obtenu 20 % de "
+"réduction."
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:310
+msgid "Message for customer e.g. This coupon has been expired."
+msgstr "Message pour le client, par ex. Ce coupon a été expiré."
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:363
+msgid "Message for customer e.g. This coupon has not been started yet."
+msgstr "Message pour le client, par ex. Ce coupon n'a pas encore été démarré."
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:203
+#: assets/dev/admin/js/admin.js:506
+msgid "min quantity"
+msgstr "quantité minimale"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:273
+msgid "Monday"
+msgstr "Lundi"
+
+#: app/Core/WooCommerce/MyAccount.php:270
+#: app/Core/WooCommerce/MyAccount.php:347
+#: app/Core/WooCommerce/MyAccount.php:449
+msgid "No coupon found"
+msgstr "Aucun coupon trouvé"
+
+#: app/Core/WooCommerce/StoreCredit.php:163
+#: app/Core/WooCommerce/StoreCredit.php:164
+#: app/Core/WooCommerce/StoreCredit.php:165
+#: app/Core/WooCommerce/StoreCredit.php:166
+#: app/Core/WooCommerce/StoreCredit.php:167
+msgid "No Data"
+msgstr "Pas de données"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:230
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:231
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:232
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:233
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:234
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:235
+msgid "No data yet"
+msgstr "Aucune donnée pour l'instant"
+
+#: app/Core/WooCommerce/CouponShortcode.php:68
+msgid "No expiry date"
+msgstr "Pas de date d'expiration"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:174
+msgid "No Redirect"
+msgstr "Aucune redirection"
+
+#: app/Core/WooCommerce/MyAccount.php:452
+msgid "No used coupons found"
+msgstr "Aucun coupon utilisé trouvé"
+
+#: app/Core/AdminNoticeManager.php:289 app/Core/AdminNoticeManager.php:314
+#: app/Core/AdminNoticeManager.php:340
+#, php-format
+msgid "Notice: %s"
+msgstr "Avis : %s"
+
+#: app/Core/WooCommerce/StoreCredit.php:155
+msgid "Out"
+msgstr "Dehors"
+
+#: app/Core/WooCommerce/CouponPaymentandShipping.php:92
+msgid "Payment & shipping method"
+msgstr "Mode de paiement et d'expédition"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:219
+msgid "Points"
+msgstr "Points"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:148
+msgid "Product Cart Condition"
+msgstr "État du panier de produits"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:248
+msgid "Product Categories"
+msgstr "catégories de produits"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:178
+msgid "Products"
+msgstr "Des produits"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:190
+msgid ""
+"Products that the coupon will be applied to, or that need to be in the cart "
+"in order for the &quot;Fixed cart discount&quot; to be applied."
+msgstr ""
+"Les produits auxquels le coupon sera appliqué ou qui doivent être dans le "
+"panier pour que la « remise sur le panier fixe » soit appliquée. à appliquer."
+
+#: app/Core/WooCommerce/CouponShortcode.php:58
+msgid "Provide a coupon code."
+msgstr "Fournissez un code promo."
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:190
+msgid "Provide a valid URL within in your WordPress website."
+msgstr "Fournissez une URL valide dans votre site Web WordPress."
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:138
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:191
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:268
+msgid "Quantity"
+msgstr "Quantité"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:220
+msgid "Reason"
+msgstr "Raison"
+
+#: app/Core/AssetsManager.php:176
+msgid "Redeemed Coupon Amount"
+msgstr "Montant du coupon échangé"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:177
+msgid "Redirect to Custom Local URL"
+msgstr "Redirection vers une URL locale personnalisée"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:221
+msgid "Referee ID"
+msgstr "ID d'arbitre"
+
+#: assets/dev/public/js/public.js:40 assets/dev/public/js/public.js:49
+msgid "Referral link copied to clipboard!"
+msgstr "Lien de parrainage copié dans le presse-papier !"
+
+#: app/Core/WooCommerce/StoreCredit.php:84
+msgid "Remaining Balance:"
+msgstr "Solde restant:"
+
+#: app/Core/WooCommerce/CouponSingleUsageLimits.php:54
+msgid "Reset Annually"
+msgstr "Réinitialiser annuellement"
+
+#: app/Core/WooCommerce/CouponSingleUsageLimits.php:57
+msgid "Reset Daily"
+msgstr "Réinitialiser quotidiennement"
+
+#: app/Core/WooCommerce/CouponSingleUsageLimits.php:55
+msgid "Reset Monthly"
+msgstr "Réinitialiser mensuellement"
+
+#: app/Core/WooCommerce/CouponSingleUsageLimits.php:43
+msgid "Reset Usage"
+msgstr "Réinitialiser l'utilisation"
+
+#: app/Core/WooCommerce/CouponSingleUsageLimits.php:56
+msgid "Reset Weekly"
+msgstr "Réinitialiser chaque semaine"
+
+#: app/Core/WooCommerce/CouponSingleGeographicRestrictions.php:87
+msgid "Restrict countries"
+msgstr "Restreindre les pays"
+
+#: app/Core/WooCommerce/CouponSingleGeographicRestrictions.php:64
+msgid "Restrict shipping zones"
+msgstr "Restreindre les zones d'expédition"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:223
+msgid "Same product as free"
+msgstr "Même produit gratuit"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:136
+msgid "Saturday"
+msgstr "Samedi"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:170
+msgid "Search for categories"
+msgstr "Rechercher des catégories"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:257
+msgid "Search for category"
+msgstr "Rechercher une catégorie"
+
+#: app/Core/WooCommerce/CouponSingleGeographicRestrictions.php:96
+msgid "Search for countries"
+msgstr "Rechercher des pays"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:321
+msgid "Search for customer group"
+msgstr "Rechercher un groupe de clients"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:372
+msgid "Search for customers"
+msgstr "Rechercher des clients"
+
+#: app/Core/WooCommerce/CouponSingleUsageRestriction.php:187
+msgid "Search for Products"
+msgstr "Rechercher des produits"
+
+#: app/Core/WooCommerce/CouponSingleGeographicRestrictions.php:73
+msgid "Search for shipping zone"
+msgstr "Rechercher une zone d'expédition"
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:118
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:246
+msgid "Search for specific product"
+msgstr "Rechercher un produit spécifique"
+
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:496
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:548
+msgid "Select any product from below list"
+msgstr "Sélectionnez n'importe quel produit dans la liste ci-dessous"
+
+#: app/Core/WooCommerce/CouponSingleGeographicRestrictions.php:99
+msgid "Select countries that you want to restrict the coupon."
+msgstr ""
+"Sélectionnez les pays dans lesquels vous souhaitez restreindre le coupon."
+
+#: app/Core/WooCommerce/CouponPaymentandShipping.php:128
+msgid "Select payment methods that you want to allow to the coupon."
+msgstr ""
+"Sélectionnez les modes de paiement que vous souhaitez autoriser sur le "
+"coupon."
+
+#: app/Core/WooCommerce/CouponPaymentandShipping.php:145
+msgid "Select shipping methods that you want to allow to the coupon."
+msgstr ""
+"Sélectionnez les méthodes d'expédition que vous souhaitez autoriser pour le "
+"coupon."
+
+#: app/Core/WooCommerce/CouponSingleGeographicRestrictions.php:76
+msgid "Select zones that you want to restrict the coupon."
+msgstr ""
+"Sélectionnez les zones dans lesquelles vous souhaitez restreindre le coupon."
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:154
+msgid "Set a message for customers about the coupon discount they got."
+msgstr ""
+"Définissez un message pour les clients concernant le coupon de réduction "
+"qu'ils ont obtenu."
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:309
+msgid "Set a message for customers about the coupon expiry date."
+msgstr ""
+"Définissez un message pour les clients concernant la date d'expiration du "
+"coupon."
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:362
+msgid "Set a message for customers about the coupon starting date."
+msgstr ""
+"Définissez un message pour les clients concernant la date de début du coupon."
+
+#: app/Core/WooCommerce/CouponSingleGeneralTab.php:333
+msgid "Set the coupon starting date."
+msgstr "Définissez la date de début du coupon."
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:81
+msgid "Sharable URL coupon"
+msgstr "Coupon d'URL partageable"
+
+#: app/Core/AssetsManager.php:177
+msgid "Sharable Url Coupons"
+msgstr "Coupons d'URL partageables"
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:137
+msgid "Shop Now"
+msgstr "Achetez maintenant"
+
+#: app/Core/WooCommerce/CouponShortcode.php:133
+msgid "Shortcode"
+msgstr "Petit code"
+
+#: app/Core/Helpers/LoyaltyProgram/DisplayAllNotice.php:61
+#, php-format
+msgid "Sign up now and receive %s reward points!"
+msgstr "Inscrivez-vous maintenant et recevez %s points de récompense !"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:148
+msgid "Social Share:"
+msgstr "Partage Social:"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:38
+msgid "Specific Days and Hours"
+msgstr "Jours et heures spécifiques"
+
+#: app/Core/WooCommerce/StoreCredit.php:111
+msgid "Status"
+msgstr "Statut"
+
+#: app/Core/WooCommerce/StoreCredit.php:51
+msgid "Store Credit"
+msgstr "Crédit en magasin"
+
+#: app/Core/Helpers/StoreCreditHelpers.php:367
+msgid "Store credit confirmation information"
+msgstr "Stocker les informations de confirmation de crédit"
+
+#: app/Core/WooCommerce/StoreCredit/StoreCreditRowInCheckoutOrderDetails.php:47
+msgid "Store Credit Used"
+msgstr "Crédit magasin utilisé"
+
+#: app/Core/WooCommerce/StoreCredit/OrderDetailsForStoreCredit.php:47
+msgid "Store Credit Used:"
+msgstr "Crédit magasin utilisé :"
+
+#: react-backup/frontend.js:89 src/frontend.js:89
+msgid "Store Credit Used: -"
+msgstr "Crédit magasin utilisé : -"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:206
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: app/Core/WooCommerce/AddCustomLinksInAllPluginsPage.php:40
+#: app/Core/WooCommerce/AddCustomLinksInAllPluginsPage.php:46
+#: app/Core/WooCommerce/AddCustomLinksInAllPluginsPage.php:46
+msgid "Support"
+msgstr "Soutien"
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:120
+#: app/Core/Helpers/EmailTemplatesHelpers.php:140
+msgid "Thanks for shopping with "
+msgstr "Merci d'avoir fait vos achats avec"
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:122
+#, php-format
+msgid "The %s Team"
+msgstr "L'équipe %s"
+
+#: app/Controllers/WooCommerce/StoreCredit/StoreCreditRefund.php:109
+msgid "The refund amount has been converted to store credit of:  "
+msgstr "Le montant du remboursement a été converti en crédit magasin de :"
+
+#: app/Core/AdminNoticeManager.php:265
+#, php-format
+msgid "This plugin requires at least PHP version of %s"
+msgstr "Ce plugin nécessite au moins la version PHP de %s"
+
+#: app/Core/AdminNoticeManager.php:247
+#, php-format
+msgid "This plugin requires at least WooCommerce version of %s"
+msgstr "This plugin requires at least WooCommerce version of %s"
+
+#: app/Core/AdminNoticeManager.php:229
+#, php-format
+msgid "This plugin requires at least WordPress version of %s"
+msgstr "Ce plugin nécessite au moins la version WordPress de %s"
+
+#: app/Core/AssetsManager.php:181
+msgid "This Week"
+msgstr "Cette semaine"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:474
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: app/Core/WooCommerce/StoreCredit.php:108
+msgid "Time"
+msgstr "Temps"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:59
+msgid "To access this feature "
+msgstr "Pour accéder à cette fonctionnalité"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:172
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:241
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:308
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:375
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:442
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:509
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:576
+msgid "To add more hours switch to Pro version"
+msgstr "Pour ajouter plus d'heures, passez à la version Pro"
+
+#: assets/dev/admin/js/admin.js:676
+msgid "To use this feature."
+msgstr "Pour utiliser cette fonctionnalité."
+
+#: app/Core/AssetsManager.php:183
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:131
+msgid "Total Bogo Discount"
+msgstr "Remise totale sur Bogo"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:340
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: app/Core/WooCommerce/StoreCredit.php:99
+msgid "Type"
+msgstr "Taper"
+
+#: app/Core/WooCommerce/MyAccount.php:83
+msgid "Upcoming Coupons"
+msgstr "Coupons à venir"
+
+#: app/Core/WooCommerce/CouponSingleSharableUrl.php:131
+msgid ""
+"Update the page to implement the url and afterwards copy the url and give to "
+"the users."
+msgstr ""
+"Mettez à jour la page pour implémenter l'URL, puis copiez l'URL et donnez-la "
+"aux utilisateurs."
+
+#: app/Core/WooCommerce/AddCustomLinksInAllPluginsPage.php:42
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:59
+#: assets/dev/admin/js/admin.js:676
+msgid "Upgrade to Pro"
+msgstr "Passer à Pro"
+
+#: assets/dev/admin/js/admin.js:622
+msgid "URL copied to clipboard:"
+msgstr "URL copiée dans le presse-papier :"
+
+#: hex-coupon-for-woocommerce.php:153 react-backup/edit.js:15
+#: react-backup/frontend.js:85 src/edit.js:15 src/frontend.js:85
+msgid "Use Store Credit"
+msgstr "Utiliser le crédit du magasin"
+
+#: app/Core/WooCommerce/MyAccount.php:86
+msgid "Used Coupons"
+msgstr "Coupons utilisés"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:107
+msgid "Valid for days/hours"
+msgstr "Valable jours/heures"
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:137
+msgid "View Balance"
+msgstr "Afficher le solde"
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:125
+msgid "View Log"
+msgstr "Afficher le journal"
+
+#: app/Core/Helpers/StoreCreditHelpers.php:365
+msgid ""
+"We're writting to let you know that a store credit refund has been processed "
+"against your recent return of order #"
+msgstr ""
+"Nous vous écrivons pour vous informer qu'un remboursement de crédit en "
+"magasin a été traité par rapport à votre récent retour de commande #"
+
+#: app/Core/WooCommerce/CouponSingleDaysAndHoursTab.php:407
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#. Author of the plugin
+msgid "WpHex"
+msgstr "WpHex"
+
+#: app/Core/AssetsManager.php:182
+msgid "Yesterday"
+msgstr "Hier"
+
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:423
+msgid "You can not add more than one product from the below list."
+msgstr "Vous ne pouvez pas ajouter plus d'un produit dans la liste ci-dessous."
+
+#: app/Core/Helpers/EmailTemplatesHelpers.php:139
+#, php-format
+msgid ""
+"You can use these credits for any future purchases on %s and you have the "
+"flexibility to choose what you want, whenever you want"
+msgstr ""
+"Vous pouvez utiliser ces crédits pour tout achat futur sur %s et vous avez "
+"la possibilité de choisir ce que vous voulez, quand vous le souhaitez."
+
+#: assets/dev/admin/js/admin.js:697
+msgid "You did not entered any amount in the coupon amount field"
+msgstr "Vous n'avez saisi aucun montant dans le champ Montant du coupon"
+
+#: app/Controllers/WooCommerce/Admin/Bogo/HexcouponBogoController.php:408
+msgid "You do not have enough item or enough quantity to avail the Bogo offer."
+msgstr ""
+"Vous n'avez pas assez d'articles ou assez de quantité pour bénéficier de "
+"l'offre Bogo."
+
+#: app/Controllers/WooCommerce/StoreCredit/StoreCreditRefund.php:46
+#: app/Controllers/WooCommerce/StoreCredit/StoreCreditRefund.php:70
+msgid "You got store credit "
+msgstr "Vous avez un crédit en magasin"
+
+#: assets/dev/admin/js/admin.js:51
+msgid "You have select same product for both purchased and free options!"
+msgstr ""
+"Vous avez sélectionné le même produit pour les options achetées et gratuites "
+"!"
+
+#: assets/dev/admin/js/admin.js:38
+msgid "You have to select at least a product for the purchase and free item"
+msgstr ""
+"Vous devez sélectionner au moins un produit pour l'achat et un article "
+"gratuit"
+
+#: app/Views/admin/licensing.php:7
+msgid "You need to activate the purchased key to use Pro Plugin features"
+msgstr ""
+"Vous devez activer la clé achetée pour utiliser les fonctionnalités du "
+"plugin Pro"
+
+#: app/Core/Helpers/LoyaltyProgram/DisplayAllNotice.php:100
+msgid "You will earn %d points with this order."
+msgstr "Vous gagnerez %d points avec cette commande."
+
+#: app/Core/WooCommerce/LoyaltyProgram/LoyaltyProgram.php:177
+msgid ""
+"You will only get points for referral when the referral user makes a "
+"successful purchase"
+msgstr ""
+"Vous n'obtiendrez des points de parrainage que lorsque l'utilisateur "
+"référent effectuera un achat réussi."
+
+#: app/Controllers/Licensing/LicenseExpiry.php:70
+#, php-format
+msgid ""
+"Your HexCoupon Pro license has expired. Please %1$srenew%2$s to continue "
+"getting the update."
+msgstr ""
+"Votre licence HexCoupon Pro a expiré. S'il te plaît %s renouveler %s pour "
+"continuer à recevoir la mise à jour."

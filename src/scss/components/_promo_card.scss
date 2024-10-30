@@ -1,0 +1,107 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+/* Promo Card Css */
+
+.promoCard {
+    background-color: var(--hex-white);
+    padding: 20px;
+    border-radius: 10px;
+    &__top {
+        &.d-flex {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+    }
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        background-color: rgba(var(--hex-main-color-one-rgb), .1);
+        color: var(--hex-main-color-one);
+        font-size: 20px;
+        svg,
+        img {
+            max-width: 18px;
+            path {
+                fill: var(--hex-main-color-one);
+            }
+        }
+        &.color-two {
+            background-color: rgba(var(--hex-main-color-two-rgb), .1);
+            color: var(--hex-main-color-two);
+            svg,
+            img {
+                path {
+                    fill: var(--hex-main-color-two);
+                }
+            }
+        }
+        &.color-three {
+            background-color: rgba(var(--hex-main-color-three-rgb), .1);
+            color: var(--hex-main-color-three);
+            svg,
+            img {
+                path {
+                    fill: var(--hex-main-color-three);
+                }
+            }
+        }
+        &.color-secondary {
+            background-color: rgba(var(--hex-secondary-color-rgb), .1);
+            color: var(--hex-secondary-color);
+            svg,
+            img {
+                path {
+                    fill: var(--hex-secondary-color);
+                }
+            }
+        }
+        &.color-success {
+            background-color: rgba(var(--hex-success-color-rgb), .1);
+            color: var(--hex-success-color);
+            svg,
+            img {
+                path {
+                    fill: var(--hex-success-color);
+                }
+            }
+        }
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: var(--hex-heading-color);
+    }
+    &__price {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        color: var(--hex-heading-color);
+        &__increment {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 20px;
+            color: var(--hex-success-color);
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            .icon {
+                font-size: 12px;
+            }
+            &.decrement {
+                color: var(--hex-danger-color);
+            }
+        }
+    }
+    &__bottom {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,40 @@
+/* Custom table css */
+
+.custom__table {
+    table {
+        &.w-100 {
+            width: 100%;
+        }
+    }
+    thead {
+        width: 100%;
+        padding: 20px;
+        border-bottom: 1px solid var(--hex-border-color);
+        tr {
+            th {
+                padding: 10px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                color: var(--hex-heading-color);
+                border-bottom: 1px solid var(--hex-border-color);
+                text-align: left;
+            }
+        }
+    }
+    tbody {
+        width: 100%;
+        padding: 20px;
+        border-top: 1px solid var(--hex-border-color);
+    }
+    tr {
+        td {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--hex-paragraph-color);
+            border-bottom: 1px solid var(--hex-border-color);
+            padding: 10px;
+        }
+    }
+}

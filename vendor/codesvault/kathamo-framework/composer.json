@@ -1,0 +1,27 @@
+{
+    "name": "codesvault/kathamo-framework",
+    "description": "The core framework for Kathamo.",
+    "type": "library",
+	"version": "1.2.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "CodesVault",
+            "email": "codesvault@gmail.com"
+        },
+        {
+            "name": "Keramot UL Islam (AbmSourav)",
+            "email": "keramotul.islam@gmail.com"
+        }
+    ],
+	"license": "MIT",
+    "require": {
+		"php": ">=7.1"
+    },
+	"scripts": {},
+	"autoload": {
+        "psr-4": {
+            "Kathamo\\Framework\\": "src/"
+        }
+    }
+}

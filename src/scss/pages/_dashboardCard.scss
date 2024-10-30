@@ -1,0 +1,13 @@
+/* Dashboard Card css */
+
+.hexDashboard__card {
+    background-color: var(--hex-white-bg);
+    padding: 20px;
+    &__header {
+        &__flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

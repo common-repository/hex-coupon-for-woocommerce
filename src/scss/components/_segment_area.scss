@@ -1,0 +1,10 @@
+/* Segment Area Css */
+
+.segmentArea {
+    &__title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        color: var(--hex-heading-color);
+    }
+}

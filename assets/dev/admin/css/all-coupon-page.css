@@ -1,0 +1,85 @@
+.coupon_shortcode input.shortcode_column {
+	width: 100% !important;
+}
+li#toplevel_page_hexcoupon-page .wp-menu-name {
+	background: #a760fe !important;
+	color: #ffffff !important;
+}
+li#toplevel_page_hexcoupon-page .wp-menu-image:before {
+	color: #ffffff !important;
+}
+#toplevel_page_hexcoupon-page .wp-submenu li a[href="admin.php?page=hexcoupon-license"] {
+	background: rgba(167, 96, 254, 0.56) !important;
+	color: #ffffff;
+}
+.hexcoupon-license-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+	background: #f4f4f4;
+	padding: 20px;
+}
+.hexcoupon-license-container {
+	background: #ffffff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: 700px;
+	width: 100%;
+}
+.license-heading {
+	padding: 20px;
+	background: #a760fe;
+	border-radius: 6px;
+}
+.hexcoupon-license-container h2 {
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.hexcoupon-license-container p.license-heading-para {
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.license-active {
+	color: #4caf50;
+	margin-left: 10px;
+}
+.license-inactive {
+	color: #f44336;
+	margin-left: 10px;
+}
+.hexcoupon-license-container .button-secondary {
+	width: 100%;
+	margin-top: 20px;
+}
+.hexcoupon-license-container .notice-error {
+	background: #f8d7da;
+	border-color: #f5c6cb;
+	color: #721c24;
+	padding: 15px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.hexcoupon-license-container .notice-success {
+	background: #d4edda;
+	border-color: #c3e6cb;
+	color: #155724;
+	padding: 15px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.license-active {
+	color: green;
+	font-size: 16px;
+}
+.license-inactive {
+	color: red;
+	font-size: 16px;
+}

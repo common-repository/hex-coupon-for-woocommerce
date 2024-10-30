@@ -1,0 +1,35 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+/* Time picker css */
+
+.react-time-picker {
+    width: 100%;
+    &__wrapper {
+        border: 1px solid var(--hex-border-color);
+        width: 100%;
+        height: 34px;
+        padding-inline: 12px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &__inputGroup {
+        &__input {
+            appearance: none;
+        }
+    }
+    &__button {
+        color: var(--hex-paragraph-color);
+        svg {
+            circle,
+            path,
+            line {
+                stroke:  var(--hex-body-color);
+            }
+        }
+    }
+    &__clock {
+        display: none;
+    }
+}

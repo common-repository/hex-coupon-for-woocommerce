@@ -1,0 +1,59 @@
+/* Action Icon Css */
+
+.actionIcon {
+    position: relative;
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25px;
+        width: 25px;
+        font-size: 16px;
+        color: var(--hex-paragraph-color);
+        border-radius: 30px;
+        &.show {
+            background-color: rgba(var(--hex-main-color-one-rgb), .1);
+            border-color: var(--hex-main-color-one);
+            color: var(--hex-main-color-one);
+        }
+    }
+    &__list {
+        width: fit-content;
+        min-width: 80px;
+        max-width: 220px;
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        transition: all .3s;
+        background-color: var(--hex-white-bg);
+        &.show {
+            visibility: visible;
+            opacity: 1;
+            height: auto;
+            display: block;
+        }
+        &__item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            color: var(--hex-paragraph-color);
+            cursor: pointer;
+            padding: 8px 10px;
+            transition: all .3s;
+            &:hover {
+                background-color: rgba(var(--hex-main-color-one-rgb), .1);
+                color: var(--hex-main-color-one);
+            }
+            &:not(:last-child) {
+                border-bottom: 1px solid var(--hex-border-color);
+            }
+            &__icon {
+                font-size: 18px;
+            }
+        }
+    }
+}

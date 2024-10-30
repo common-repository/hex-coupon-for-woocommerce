@@ -1,0 +1,39 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+/* Card List Css */
+
+.cardList {
+    padding-left: 50px;
+    border-left: 1px solid var(--hex-border-color);
+    .line-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 1px 0;
+        color: var(--hex-paragraph-color);
+        font-size: 14px;
+        line-height: 24px;
+        &:not(:last-child) {
+            margin-bottom: 12px;
+        }
+        &:before{
+            width: 10px;
+            height: 10px;
+            border: 1px solid var(--hex-border-color);
+            border-radius: 2px;
+            content: "";
+            margin-right: 10px;
+        }
+        .title,
+        .amount{
+            white-space: nowrap;
+        }
+        .line{
+            flex-grow: 1;
+            border-bottom: 2px dashed var(--hex-border-color);
+            margin: 0 10px;
+
+        }
+    }
+}

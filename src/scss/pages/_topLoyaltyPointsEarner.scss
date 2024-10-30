@@ -1,0 +1,28 @@
+/* Top Loyalty Points Earner Card css */
+
+.loyalty-dashboard-container {
+	margin-top: 20px;
+	display:flex;
+	gap: 10px;
+	.loyalty-dashboard-box {
+		padding-right: 20px;
+		flex: 1;
+		text-align: center;
+		&:last-child {
+			padding-right: 0;
+			.pieChart {
+				margin-top: 20px;
+			}
+		}
+		.tableWrap {
+			thead {
+				background: #cccccc2b;
+			}
+			tr:first-child {
+				th {
+					border-top: 1px solid var(--hex-border-color);
+				}
+			}
+		}
+	}
+}

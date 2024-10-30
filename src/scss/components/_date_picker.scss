@@ -1,0 +1,18 @@
+/* Date Picker css */
+
+.react-datepicker {
+    &-wrapper {
+        display: block;
+    }
+    &__input-container {
+        input {
+            border: 1px solid var(--hex-border-color);
+            width: 100%;
+            height: 34px;
+            padding-inline: 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}

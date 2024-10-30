@@ -1,0 +1,123 @@
+/* Store Credit css */
+
+.hexStoreCredit {
+    &__header {
+        &__flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px 10px;
+            flex-wrap: wrap;
+        }
+        &__title {}
+        &__left {}
+        &__right {
+            &__flex {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+            &__item {
+                &__icon {
+
+                }
+            }
+        }
+    }
+}
+.status__flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.status_btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(var(--hex-main-color-one-rgb), .1);
+    color: var(--hex-main-color-one);
+    padding: 3px 7px;
+    font-size: 14px;
+    line-height: 20px;
+    transition: all .3s;
+    &:hover {
+        background-color: var(--hex-main-color-one);
+        color: var(--hex-white-text);
+    }
+    &.active_btn {
+        background-color: rgba(var(--hex-active-rgb), .1);
+        color: var(--hex-active);
+        &:hover {
+            background-color: var(--hex-active);
+            color: var(--hex-white-text);
+        }
+    }
+    &.pending_btn {
+        background-color: rgba(var(--hex-pending-rgb), .1);
+        color: var(--hex-pending);
+        &:hover {
+            background-color: var(--hex-pending);
+            color: var(--hex-white-text);
+        }
+    }
+    &.delete_btn {
+        background-color: rgba(var(--hex-delete-rgb), .1);
+        color: var(--hex-delete);
+        &:hover {
+            background-color: var(--hex-delete);
+            color: var(--hex-white-text);
+        }
+    }
+    &.expired_btn {
+        background-color: rgba(var(--hex-expired-rgb), .1);
+        color: var(--hex-expired);
+        &:hover {
+            background-color: var(--hex-expired);
+            color: var(--hex-white-text);
+        }
+    }
+}
+
+.action_icon {
+    font-size: 20px;
+    color: var(--hex-heading-color);
+    cursor: pointer;
+}
+.HelpBtnHover {
+    position: relative;
+    line-height: 0;
+    &__icon  {
+        font-size: 20px;
+        color: inherit;
+        cursor: pointer;
+        transition: all .3s;
+        line-height: 0;
+        &:hover {
+            color: inherit;
+        }
+    }
+    &__contents {
+        position: absolute;
+        bottom: calc(100% + 10px);
+        right: 0;
+        background-color: var(--hex-search-bg);
+        background-color: #f0f0f0;
+        padding: 5px 10px;
+        min-width: 170px;
+
+    }
+    &__para {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+
+.amount_para {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

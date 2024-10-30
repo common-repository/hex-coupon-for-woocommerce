@@ -1,0 +1,65 @@
+
+.HxcAppWrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+	max-width: calc(100% - 24px);
+	max-width: 1705px;
+	margin-top: 24px;
+	.MainContainer {
+		width: 100%;
+		flex-grow: 1;
+	}
+
+	.sidebarWrapper {
+		width: 264px;
+		background-color: var(--hex-white-bg);
+		flex-shrink: 0;
+		height: calc(100vh - 57px );
+		padding: 12px;
+		.hexpDashboard__left__header {
+			.hexpDashboard__left__header__logo {
+				margin-bottom: 20px;
+			}
+		}
+		ul {
+			margin: 0;
+			list-style: none;
+			padding: 0;
+			li {
+				a {
+					border-radius: 4px;
+					display: flex;
+					padding: 12px 0px 12px 16px;
+					align-items: center;
+					gap: 12px;
+					color: var(--hex-paragraph-color);
+					text-transform: capitalize;
+					text-decoration: none;
+					font-weight: 500;
+					transition: all 400ms;
+					&:hover {
+						background: var(--hex-lite-main-color);
+						color: var(--hex-main-color-one);
+					}
+					&.active {
+						background: var(--hex-lite-main-color);
+						color: var(--hex-main-color-one);
+					}
+				}
+			}
+		}
+		.logoWrapper {
+			h6 {
+				margin: 0;
+				font-size: 30px;
+				line-height: 30px;
+				padding: 20px;
+				margin-bottom: 20px;
+				color: var(--hex-main-color-one);
+			}
+		}
+
+	}
+}
+

@@ -1,0 +1,42 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+/* // Page Header Css */
+
+.pageHeader__search {
+    &__box {
+        position: relative;
+        width: 350px;
+        max-width: 100%;
+
+        input {
+            width: 100%;
+            height: 40px;
+            line-height: 24px;
+            border: 1px solid var(--hex-border-color);
+            padding: 0 15px;
+            background-color: unset;
+            outline: none;
+            color: var(--hex-paragraph-color);
+            -webkit-transition: 300ms;
+            transition: 300ms;
+            -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            background-color: var(--hex-white-bg);
+            border-radius: 30px;
+            padding-left: 35px;
+            &:focus {
+                border-color: rgba(var(--hex-main-color-one-rgb), 0.3);
+                -webkit-box-shadow: 0 0 10px rgba(var(--hex-main-color-one-rgb), 0.1);
+                box-shadow: 0 0 10px rgba(var(--hex-main-color-one-rgb), 0.1);
+            }
+        }
+        .searchIcon {
+            position: absolute;
+            bottom: 12px;
+            left: 15px;
+            font-size: 16px;
+            color: var(--hex-paragraph-color);
+        }
+    }
+}

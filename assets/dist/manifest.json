@@ -1,0 +1,19 @@
+{
+  "assets/dev/admin/js/admin.js": {
+    "file": "admin.js",
+    "isEntry": true,
+    "src": "assets/dev/admin/js/admin.js"
+  },
+  "assets/dev/public/js/public.css": {
+    "file": "public.css",
+    "src": "assets/dev/public/js/public.css"
+  },
+  "assets/dev/public/js/public.js": {
+    "css": [
+      "public.css"
+    ],
+    "file": "public.js",
+    "isEntry": true,
+    "src": "assets/dev/public/js/public.js"
+  }
+}

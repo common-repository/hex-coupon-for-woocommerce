@@ -1,0 +1,28 @@
+
+
+/* Card Css */
+
+.bodyCard {
+    background-color: var(--hex-white-bg);
+    padding: 20px;
+    height: 100%;
+    &.p-0 {
+        padding: 0px;
+    }
+    &:not(:last-child) {
+        margin-bottom: 24px;
+    }
+    &__header {
+        border-bottom: 1px solid var(--hex-border-color);
+        padding: 20px;
+        &.noborder {
+            border: 0;
+        }
+    }
+    &__inner {
+        padding: 20px;
+        &.nopadding {
+            padding: 0;
+        }
+    }
+}
